@@ -1,9 +1,9 @@
 spring:
   # 测试的时候可以不用mysql
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/jpa_demo?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://47.93.234.101:3306/jpa_demo?serverTimezone=GMT%2B8&u seUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     show-sql: true
